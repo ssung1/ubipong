@@ -1,0 +1,28 @@
+{
+  "name": "ubipong-ui",
+  "version": "1.0.0",
+  "description": "This is an application to keep scores in ping pong tournaments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssung1/ubipong-ui.git"
+  },
+  "keywords": [
+    "ping",
+    "pong",
+    "tournament"
+  ],
+  "author": "Shawfe Sung",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ssung1/ubipong-ui/issues"
+  },
+  "homepage": "https://github.com/ssung1/ubipong-ui#readme",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}
