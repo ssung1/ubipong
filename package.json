@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ssung1/ubipong-ui#readme",
   "devDependencies": {
+    "http-server": "^0.11.1",
     "typescript": "^2.9.2"
   }
 }
