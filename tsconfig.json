@@ -1,9 +1,10 @@
 {
-  "files": [
-    "src/*.ts",
-    "src/result/*.ts"
+  "include": [
+    "src/**/*.ts"
   ],
   "compilerOptions": {
+    "module": "es6",
+    "sourceMap": true,
     "noImplicitAny": true,
     "target": "es5"
   }

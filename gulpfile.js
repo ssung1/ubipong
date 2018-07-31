@@ -6,8 +6,11 @@ gulp.task("default", ["compile", "copy-html"], function () {
 });
 
 gulp.task("compile", function () {
-  // in tsconfig.json, each source directory must be
+
+  // in tsconfig.json, if using "file", each source directory must be
   // explicitly named
+  //
+  // if using "include", globs work fine
   return tsProject.src()
       .pipe(tsProject())
       // "dist" is created automatically; no need to mkdir

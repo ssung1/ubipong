@@ -1,3 +1,7 @@
-import { linkNames } from "./navigation";
+import { linkNames } from "./navigation.js";
 
-document.write(linkNames.toString());
+export function main() {
+  document.write(linkNames.toString());
+  document.write("why not worky");
+  console.log(linkNames.toString());
+}
